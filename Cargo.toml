@@ -1,0 +1,11 @@
+[package]
+name = "tools"
+version = "0.1.0"
+authors = ["roblabla <unfiltered@roblab.la>"]
+publish = false
+
+[dependencies]
+linkle = { git = "https://github.com/MegatonHammer/linkle" }
+serde = "1.0.77"
+serde_json = "1.0.27"
+serde_derive = "1.0.77"
